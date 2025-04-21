@@ -1,4 +1,3 @@
-
 import React from "react";
 import { ProfileCard } from "../components/ProfileCard";
 import { HackathonCard } from "../components/HackathonCard";
@@ -62,6 +61,14 @@ const MOCK_PROFILES = [
     location: "Online/Remote",
     interests: ["Web3", "Open Source"],
     bio: "Remote dev, looking to join a global online team!",
+  },
+  {
+    id: 5,
+    name: "Arjun Singh",
+    skills: ["JavaScript", "Node.js", "React"],
+    location: "Bangalore, India",
+    interests: ["Fintech", "AI"],
+    bio: "Full-stack developer from India, interested in fintech and AI projects.",
   },
 ];
 
