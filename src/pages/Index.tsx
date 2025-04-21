@@ -1,3 +1,4 @@
+
 import React from "react";
 import { ProfileCard } from "../components/ProfileCard";
 import { HackathonCard } from "../components/HackathonCard";
@@ -69,6 +70,14 @@ const MOCK_PROFILES = [
     location: "Bangalore, India",
     interests: ["Fintech", "AI"],
     bio: "Full-stack developer from India, interested in fintech and AI projects.",
+  },
+  {
+    id: 6,
+    name: "Neha Sharma",
+    skills: ["JavaScript", "React", "CSS"],
+    location: "Mumbai, India",
+    interests: ["Fintech", "Healthcare"],
+    bio: "Passionate about building fintech applications and healthcare solutions.",
   },
 ];
 
@@ -197,3 +206,4 @@ const Index: React.FC = () => {
 };
 
 export default Index;
+
