@@ -28,6 +28,28 @@ const MOCK_HACKATHONS = [
     date: "June 10-12, 2025",
     joined: false,
   },
+  // Added Indian hackathons below
+  {
+    id: 4,
+    name: "IndiaTech Innovate",
+    description: "Accelerate your tech ideas with India’s best hackers.",
+    date: "July 5-7, 2025",
+    joined: false,
+  },
+  {
+    id: 5,
+    name: "Mumbai DevFest Hackathon",
+    description: "A hackathon focused on fintech and mobile apps.",
+    date: "August 20-22, 2025",
+    joined: false,
+  },
+  {
+    id: 6,
+    name: "Bangalore Smart City Hack",
+    description: "Create solutions for smart city challenges in Bangalore.",
+    date: "September 15-17, 2025",
+    joined: false,
+  },
 ];
 
 const MOCK_PROFILES = [
